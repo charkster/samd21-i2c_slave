@@ -1,4 +1,7 @@
 # samd21-i2c_slave
+![picture](https://www.okdo.com/us/wp-content/uploads/sites/8/2020/03/Seeedunio-Image.jpg)
+
+
 This implements an i2c slave with a register map of 256 bytes in sram for the SAMD21, as an arduino sketch. The slave supports multi-byte writes and reads. It uses the "Wire" library.
 A Raspberry Pi python script is provided to demonstrate multi-byte writes and reads.
 
