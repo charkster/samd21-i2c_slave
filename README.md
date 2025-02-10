@@ -12,3 +12,5 @@ Implementing the multibyte read using the Wire library commands is very simple, 
 UF2 file was created for Seeedino Xiao (SDA is PA8 and SCL is PA9).
 
 I created 256 uf2 files for the Adafruit QT PY SAMD21 in the [uf2_files](https://github.com/charkster/samd21-i2c_slave/tree/main/uf2_files) directory... one for every possible slave_id. Feel free to drag-n-drop a uf2 file to make a specific I2C slave.
+
+--> See my **new** [i2c_slave](https://github.com/charkster/i2c_slave) repo which supports Xiao RP2040, Xiao RP2350 and QT PY SAMD21 boards. It includes pre-built UF2 files for all possible Slave IDs and has options for 16bit addressing. 
